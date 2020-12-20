@@ -1,0 +1,23 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Углеродный Генератор",
+	"description": "Улучшеный генератор но работает только на углероде",
+	"size": 2,
+	"health": 500,
+	"itemDuration": 360,
+    "powerProduction": 5,
+	"hasItems": false,
+"consumes":{
+ "items": {"items":
+ [ {"item": "uglerod","amount": "1"}]}},
+	"requirements": [
+		{"item": "titanium", "amount": 95},
+		{"item": "item_1", "amount": 45},
+		{"item": "copper", "amount": 150},
+		{"item": "silicon","amount":50}
+	],
+	"category": "power",
+	"research": "fabric-liquid",
+	"idleSound": "smelter",
+	"idleSoundVolume": 0.5
+}

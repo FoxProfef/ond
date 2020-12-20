@@ -1,0 +1,18 @@
+{
+"type": "flying",
+"name": "ПВЮ-1",
+"speed": 3,
+"flying": true,
+"health": 500,
+"range": 180,
+"targetAir": true,
+"weapons": [{
+"name": "Пушка ПВЮ",
+"length": 20,
+"reload": 60,
+"shots": 2,
+"alternate": true,
+"bullet": "fragExplosive"
+}],
+"research": "fabric_a1"}
+

@@ -1,0 +1,13 @@
+{
+"name": "Укреплённая Титановая Стена",
+"description": "Уреплённая Пластичным материалом Стена",
+"type": "Wall",
+"health": "570",
+"size": 1,
+"requirements": [
+ { "item": "item_1", "amount": 6 }
+ { "item": "titanium", "amount": 6 }
+ ],
+"category": "defense"
+"research": "wall_Kr"
+}

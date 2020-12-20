@@ -1,0 +1,17 @@
+{
+	"type": "SolarGenerator",
+	"name": "улучшенная Солнечная Панель",
+	"description": "Солнечная панель которая была улучшена",
+	"size": 2,
+    "powerProduction": 1.1,
+	"requirements": [
+		{"item": "titanium", "amount": 40},
+		{"item": "item_1", "amount": 35},
+		{"item": "copper", "amount": 50},
+		{"item": "silicon","amount":50}
+	],
+	"category": "power",
+	"research": "wall_Kr",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

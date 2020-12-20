@@ -1,0 +1,12 @@
+{
+"name": "Укреплённая Стена",
+"description": "Уреплённая Пластичным материалом Стена",
+"type": "Wall",
+"health": "385",
+"size": 1,
+"requirements": [
+ { "item": "item_1", "amount": 6 }
+ ],
+"category": "defense"
+"research": "Compressor"
+}

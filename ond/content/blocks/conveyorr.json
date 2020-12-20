@@ -1,0 +1,14 @@
+{
+"type": "Conveyor",
+"name": "Пластичный Конвеер",
+"description": "Конвеер укреплённый пластичным материалом",
+"requirements": [
+{"item": "item_1", "amount": 4 },
+{"item": "titanium", "amount": 8 },
+{"item": "copper", "amount": 4} ],
+"category": "distribution",
+"speed": 0.26,
+"health": 240,
+"research": "Compressor"
+}
+

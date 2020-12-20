@@ -1,0 +1,25 @@
+{
+"type": "TractorBeamTurret",
+"name": "ПВО-ПЛ",
+"description": "Атакует Воздушные цели.",
+"hasPower":true,
+"size":1
+"force":0,
+"scaledForce":0,
+"range":165,
+"damage":1,
+"health":500,
+"rotateSpeed":15
+"consumes":{
+"power":2},
+
+"shootEffect":null,
+"requirements": [
+{"item": "titanium", "amount":45},
+{"item": "item_1", "amount": 50},
+{"item": "copper", "amount": 40}]
+"category": "turret",
+ "shootSound": "spark",
+ "research": "wall_Kr"}
+ 
+

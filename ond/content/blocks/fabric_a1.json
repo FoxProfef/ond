@@ -1,0 +1,27 @@
+{
+"type": "UnitFactory",
+"name": "Фабрика ПВЮ",
+"description": "ПВЮ.",
+"size": 3,
+"plans": [ {
+"unit": "drone_a1",
+"requirements": [ 
+{ "item": "item_1", "amount": 5 },
+{ "item": "copper", "amount": 25 },
+{ "item": "titanium", "amount": 10 }  ]
+"time": 120},
+{
+"unit": "drone_a2",
+"requirements": [ 
+{ "item": "item_1", "amount": 5 },
+{ "item": "copper", "amount": 25 },
+{ "item": "titanium", "amount": 10 }  ]
+"time": 120}]
+
+"requirements": [
+{"item": "copper", "amount": 90 },
+{"item": "item_1", "amount": 25 }]
+"category": "units",
+"research": "Compressor" 
+}
+

@@ -1,0 +1,25 @@
+{
+"type": "GenericSmelter",
+"name": "Компрессор",
+"description": "Делает Пластичный материал",
+"outputItem": {"item": "item_1","amount":1},
+"size": 3,
+"hasPower": true,
+"hasItems": false,
+"craftTime": 120,
+"updateEffect": "smeltsmoke",
+"consumes": {
+"power": 0.5,
+"items": { "items":[ { "item": "silicon", "amount": 1 },
+{"item": "copper", "amount": 1} ] } },
+"requirements": [ { "item": "silicon", "amount": 25 },
+{ "item": "copper", "amount": 45 },
+{ "item": "graphite", "amount": 15 } ],
+"category": "crafting",
+"research": "router",
+"idleSound": "respawning",
+"idleSoundVolume": 0.5
+}
+
+
+

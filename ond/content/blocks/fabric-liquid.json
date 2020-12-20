@@ -1,0 +1,25 @@
+{
+"type": "genericCrafter",
+"name": "Облучитель",
+"description": "Делает из Угля углерод и облучает его",
+"outputItem": {"item": "uglerod","amount":"1"}, 
+"size":"3",
+"hasPower": true,  
+"craftTime": "80", 
+"health": "400",
+"updateEffect": "smeltsmoke", 
+"consumes": {
+ "power": 1.67, 
+ "items": {"items":
+ [ {"item": "coal","amount": "5"}]}}, 
+  "requirements": [
+   {"item": "item_1","amount": "35"},
+   {"item": "titanium","amount": "52"},
+   {"item": "copper","amount": "80"},
+   {"item": "graphite","amount": "20"},
+   {"item": "lead","amount": "45"}
+   ],   
+ "category":"crafting",
+"research": "Compressor",
+"idleSound": "respawning",
+"idleSoundVolume": "0.5"}
